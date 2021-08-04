@@ -1,10 +1,5 @@
 import discord
-import asyncio
 import os
-import discord
-from discord.errors import ClientException
-from discord.ext import commands
-from discord import message  
 bot = discord.Client()
 
 @bot.event
@@ -23,5 +18,5 @@ async def on_message(message):
                 await message.channel.send(embed=embed)
 
 
-
-bot.run("ODcyMDUyMDM0MDQ2Njc2OTkz.YQkPvg.T9Y98LnzGkOlEVPqDbAA8cGcUWY")
+acces_token=os.environ["BOT_TOKEN"]
+bot.run(acces_token)
