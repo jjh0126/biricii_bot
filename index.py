@@ -11,7 +11,7 @@ async def on_message(message):
                 embed = discord.Embed(title="잘생긴사람은...", description="김민찬이다 삐릭", color=0x62c1cc)
                 await message.channel.send(embed=embed)
         if message.content == "!너만든사람":
-                embed = discord.Embed(title="날만든사람은...", description="정준형이다 삐릭", color=0x49EDA0)
+                embed = discord.Embed(title="날만든사람은...", description="니로(NiRo)다 삐릭", color=0x49EDA0)
                 await message.channel.send(embed=embed)
         if message.content == "!버전":
                 embed= discord.Embed(title="나의버전은..", description="삐릭이_V2 1.0.0이다 삐릭", color=0xFCED20)
