@@ -8,7 +8,7 @@ async def on_message(message):
                 embed = discord.Embed(title="사용법은 아래를 보고 입력하면 된다 삐릭삐릭", description="!잘생긴사람   |   잘생긴 사람을 보여준다 삐릭 \n !너만든사람   |   날만든사람을 보여준다 삐릭\n !버전   |   나의 버전을 보여준다 삐릭\n !사용법   |   사용법을 보여준다 삐릭", color=0xF71317) 
                 await message.channel.send(embed=embed)
         if message.content == "!잘생긴사람":
-                embed = discord.Embed(title="잘생긴사람은...", description="김민찬이다 삐릭", color=0x62c1cc)
+                embed = discord.Embed(title="잘생긴사람은...", description="4등존잘 이다 삐릭", color=0x62c1cc)
                 await message.channel.send(embed=embed)
         if message.content == "!너만든사람":
                 embed = discord.Embed(title="날만든사람은...", description="니로(NiRo)다 삐릭", color=0x49EDA0)
