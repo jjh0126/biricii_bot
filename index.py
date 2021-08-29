@@ -1,8 +1,8 @@
 import discord
 import os
 bot = discord.Client()
-johnjal = os.environ["Johnjal"]
-maker = os.environ["Maker"]
+johnjal = os.environ['Johnjal']
+maker = os.environ['Maker']
 
 @bot.event
 async def on_message(message):
